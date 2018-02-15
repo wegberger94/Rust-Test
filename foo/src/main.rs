@@ -2,7 +2,7 @@
         let mut y = x;
         if (x > 4)
         {
-            y = y - 4;            
+            y = y - 4;
         }
     return y;
 }
@@ -22,6 +22,7 @@ fn main() {
         .expect("Please type a number!");
 
     x = erste_rechnung(zahl2);
+
 
     println!("{}",  x);
 }
