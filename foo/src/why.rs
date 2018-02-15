@@ -4,7 +4,7 @@ fn erste_rechnung(x:u32)  -> u32{
        {
            y = y - 4;
        }
-   return y;
+    y
 }
 
 fn main() {
